@@ -1,8 +1,8 @@
 *** Settings ***
 Documentation       An Assistant Robot.
 
-Library             RPA.Assistant
 Library             OperatingSystem
+Library             RPA.Assistant
 
 
 *** Tasks ***
