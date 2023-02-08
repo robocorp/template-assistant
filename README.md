@@ -1,13 +1,8 @@
-# Template: Simple Assistant Robot Template
+# Template: Simple Assistant Robot
 
-This is the simplest template to start and Assistant robot from.
+The template leverages the RPA.Assistant package to provide the UI functionality. The template shows the different components available in the new library and the basic structure to help you get going.
 
-The template leverages the RPA.Assistant package to provide the UI functionality.
-
-- Get started from a simple task template in `tasks.robot`.
-  - Uses [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics) syntax.
-- You can configure your robot `robot.yaml`.
-- You can configure dependencies in `conda.yaml`.
+More about [attended vs. unattended robots](https://robocorp.com/docs/control-room/attended-or-unattended) and specifically [attended automations](https://robocorp.com/docs/control-room/attended)
 
 ## Learning materials
 
