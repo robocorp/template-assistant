@@ -15,7 +15,7 @@ Main
     ${result}=    RPA.Assistant.Run Dialog
     ...    title=Assistant Template
     ...    on_top=True
-    ...    height=420
+    ...    height=450
 
 
 *** Keywords ***
@@ -58,7 +58,7 @@ Show Static Components
     Add Text    This is normal text
     Add Text    This is small text    Small
 
-    Add Image    ${CURDIR}${/}mark.png    200
+    Add Image    ${CURDIR}${/}mark.png
 
     Add Icon    Success    size=16
     Add Icon    Warning    size=16
