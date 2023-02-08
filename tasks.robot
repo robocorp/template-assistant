@@ -106,7 +106,7 @@ Show File Components
 
     Add File    ${CURDIR}    label=Current
     Add File Input    files    Choose multiple files...    file_type=md,png    multiple=True
-    Add Files    png
+    Add Files    *.png
 
     Add Next Ui Button    Back    Back To Main Menu
 
