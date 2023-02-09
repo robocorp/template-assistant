@@ -23,7 +23,7 @@ Display Main Menu
     [Documentation]
     ...    Main UI of the bot. We use the "Back To Main Menu" keyword
     ...    with buttons to make other views return here.
-    Clear Elements
+    Clear Dialog
     Add Heading    Assistant Template
     Add Text    Available UI Components:
     Add Button    Static Components    Show Static Components
@@ -52,7 +52,7 @@ Back To Main Menu
 Show Static Components
     [Documentation]    Action shows all text, image and icon components
 
-    Clear Elements
+    Clear Dialog
     Add Heading    Big heading    Large
     Add Heading    Small heading    Small
     Add Text    This is normal text
@@ -74,7 +74,7 @@ Show Static Components
 Show Input Components
     [Documentation]    Action shows all input components
 
-    Clear Elements
+    Clear Dialog
     Add Heading    Input handling
 
     Add Text Input    text_input    This is a text input
@@ -101,7 +101,7 @@ Show Input Components
 Show File Components
     [Documentation]    Action shows all file input components
 
-    Clear Elements
+    Clear Dialog
     Add Heading    File handling
 
     Add File    ${CURDIR}    label=Current
@@ -117,7 +117,7 @@ Show Example View
     ...    A clean example view to get started
     ...    Contains a single action that demonstrates error handling
 
-    Clear Elements    # We clear the current view when starting to create another view
+    Clear Dialog    # We clear the current view when starting to create another view
     Add Heading    Example with error handling
     Add Text    The action below causes an error, but we only log it and continue.
     # A button that calls a keyword that fails
