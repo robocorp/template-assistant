@@ -93,6 +93,7 @@ Show Input Components
     ...    label=Radio Buttons
 
     Add Slider
+    ...    name=percentage
     ...    slider_min=0
     ...    slider_max=100
     ...    thumb_text={value}%
