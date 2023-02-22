@@ -92,6 +92,12 @@ Show Input Components
     ...    default=Option A
     ...    label=Radio Buttons
 
+    Add Slider
+    ...    slider_min=0
+    ...    slider_max=100
+    ...    thumb_text={value}%
+    ...    steps=100
+
     Add Checkbox    checkbox    This is a checkbox    True
     Add Hidden Input    hidden_field    This is hidden
 
@@ -121,7 +127,7 @@ Show Example View
     Add Heading    Example with error handling
     Add Text    The action below causes an error, but we only log it and continue.
     # A button that calls a keyword that fails
-    Add Button    Get Image    Get Data
+    Add Button    Get Image - Error handling    Get Data
 
     # We use "Add Next Ui Button" keyword to generate a back button, that will pass the ${results}
     # of the dialog to the keyword "Back To Main Menu"
